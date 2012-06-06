@@ -1,7 +1,7 @@
 # BaseDemo
 BaseDemo is just a basic template that can be used for creating demos for your development projects. It also works great for [GitHub Pages](http://pages.github.com/). This is an example of what you could do with this template and some content types.
 
-By Sebastian Nitu
+*By Sebastian Nitu*
 
 Plugin URI:	[https://github.com/sebnitu/BaseDemo](https://github.com/sebnitu/BaseDemo)  
 Author URI:	[http://sebnitu.com/](http://sebnitu.com/)  
