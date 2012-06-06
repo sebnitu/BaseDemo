@@ -3,10 +3,8 @@ BaseDemo is just a basic template that can be used for creating demos for your d
 
 By Sebastian Nitu
 
-Plugin URI:	[https://github.com/sebnitu/BaseDemo](https://github.com/sebnitu/BaseDemo)
-
-Author URI:	[http://sebnitu.com/](http://sebnitu.com/)
-
+Plugin URI:	[https://github.com/sebnitu/BaseDemo](https://github.com/sebnitu/BaseDemo)  
+Author URI:	[http://sebnitu.com/](http://sebnitu.com/)  
 Online Demo: [http://sebnitu.github.com/BaseDemo/](http://sebnitu.github.com/BaseDemo/)
 
 ## Features
