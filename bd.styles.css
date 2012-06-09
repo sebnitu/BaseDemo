@@ -114,6 +114,11 @@ h2 {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
+h3 {
+  font-size: 16px;
+  color: #303030;
+  margin: 20px 0 10px 0;
+}
 p {
 	margin: 15px 0;
 }
@@ -217,6 +222,9 @@ table tr:nth-child(even) td {
 	-o-transform:rotate(45deg);
 	-ms-transform:rotate(45deg);
 	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5);
+}
+.ie9 .sep .arrow {
+  display: none;
 }
 .sep .left-arrow {
 	left: -12px;
@@ -395,8 +403,13 @@ table tr:nth-child(even) td {
 	@Main
 ---------------------------------------------*/
 
+.description:before, .description:after {
+	content: "\0020"; display: block; height: 0; visibility: hidden;	
+} 
+.description:after { clear: both; }
 .description {
 	padding: 1% 6% 2%;
+	zoom: 1;
 }
 .description h2 {
 	background: #dd390d;
