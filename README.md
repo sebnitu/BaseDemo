@@ -1,14 +1,14 @@
 # BaseDemo
 BaseDemo is just a basic template that can be used for creating demos for your development projects. It also works great for [GitHub Pages](http://pages.github.com/). This is an example of what you could do with this template and some content types.
 
-By Sebastian Nitu
+*By Sebastian Nitu*
 
 Author URI:	[http://sebnitu.com/](http://sebnitu.com/)  
 Online Demo: [http://sebnitu.github.com/BaseDemo/](http://sebnitu.github.com/BaseDemo/)
 
 ## Features
 
-1) One of the reasons BaseDemo is great is because it's so simple. You don't even have to include anything else in your document downloads or GitHub Pages besides the demo file! Just include the bootstrap script in the header and BaseDemo will take care of the rest: 
+1) One of the reasons BaseDemo is great is because it's so simple. You don't even have to include anything else in your document downloads or GitHub Pages besides the demo file! Just include the bootstrap script in the header and BaseDemo will take care of the rest:
 
 ```html
 <script src="bootstrap.js"></script>
