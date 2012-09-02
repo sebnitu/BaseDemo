@@ -213,24 +213,23 @@ table tr:nth-child(even) td {
 .sep .arrow {
 	position: absolute;
 	top: -9px; 
-	background: #cccccc;
-	width: 19px; height: 19px;
+	width: 0; height: 0;
 	display: block;
-	/* Rotate */
-	-moz-transform:rotate(45deg);
-	-webkit-transform:rotate(45deg);
-	-o-transform:rotate(45deg);
-	-ms-transform:rotate(45deg);
-	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5);
 }
 .ie9 .sep .arrow {
   display: none;
 }
 .sep .left-arrow {
-	left: -12px;
+	left: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid #cccccc;
 }
 .sep .right-arrow {
-	right: -12px;
+	right: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-right:10px solid #cccccc;
 }
 
 /*-------------------------------------------
