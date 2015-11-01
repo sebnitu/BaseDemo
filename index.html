@@ -16,7 +16,7 @@
 		
 		For more on BaseDemo here: https://github.com/sebnitu/BaseDemo
 	-->
-	<script src="bootstrap.js"></script>
+	<link rel="stylesheet" href="bd.styles.css">
 	
 	<!--
 	
@@ -53,7 +53,7 @@
 				<ul>
 					<li><a href="{{author-url}}">About the Author</a></li>
 					<li><a href="{{project-url}}">Documentation</a></li>
-					<li class="download"><a href="{{project-download-url}}">Download <span class="version">v1.0</span></a></li>
+					<li class="download"><a href="{{project-download-url}}"><img src="bd.download.png" alt=""> Download <span class="version">v1.0</span></a></li>
 				</ul>
 			</nav>
 		
@@ -180,6 +180,13 @@
 		</footer>
 		
 	</div><!-- .wrapper -->
+
+<!-- jQuery -->
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script>!window.jQuery && document.write(unescape('%3Cscript src="bd.jquery.min.js"%3E%3C/script%3E'))</script>
+
+<!-- JavaScript -->
+<script src="bd.ui.js"></script>
 
 </body>
 </html>
